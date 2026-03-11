@@ -1,0 +1,12 @@
+[package]
+name = "hexdump"
+version = "0.1.0"
+description = "Hex dump of a file"
+
+[build]
+target = "aarch64-karythra"
+bin = "hexdump"
+
+[dist]
+sha256 = ""
+url = ""

@@ -1,0 +1,12 @@
+[package]
+name = "echo"
+version = "0.1.0"
+description = "Echo arguments to console"
+
+[build]
+target = "aarch64-karythra"
+bin = "echo"
+
+[dist]
+sha256 = ""
+url = ""

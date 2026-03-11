@@ -1,0 +1,12 @@
+[package]
+name = "find"
+version = "0.1.0"
+description = "Find files by tag"
+
+[build]
+target = "aarch64-karythra"
+bin = "find"
+
+[dist]
+sha256 = ""
+url = ""

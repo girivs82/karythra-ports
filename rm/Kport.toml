@@ -1,0 +1,12 @@
+[package]
+name = "rm"
+version = "0.1.0"
+description = "Remove a file from the filesystem"
+
+[build]
+target = "aarch64-karythra"
+bin = "rm"
+
+[dist]
+sha256 = ""
+url = ""

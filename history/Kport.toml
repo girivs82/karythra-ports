@@ -1,0 +1,12 @@
+[package]
+name = "history"
+version = "0.1.0"
+description = "Show file version history"
+
+[build]
+target = "aarch64-karythra"
+bin = "history"
+
+[dist]
+sha256 = ""
+url = ""
