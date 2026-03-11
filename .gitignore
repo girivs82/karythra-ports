@@ -1,5 +1,16 @@
 target/
+Cargo.lock
 *.kbin
 *.elf
 *.bin
 .DS_Store
+
+# Built kbin binaries (extensionless, same name as port dir)
+hello/hello
+uptime/uptime
+ls/ls
+cat/cat
+random/random
+stat/stat
+services/services
+power/power

@@ -1,0 +1,12 @@
+[package]
+name = "stat"
+version = "0.1.0"
+description = "Show file metadata"
+
+[build]
+target = "aarch64-karythra"
+bin = "stat"
+
+[dist]
+sha256 = ""
+url = ""

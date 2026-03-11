@@ -1,0 +1,12 @@
+[package]
+name = "power"
+version = "0.1.0"
+description = "Show power management status"
+
+[build]
+target = "aarch64-karythra"
+bin = "power"
+
+[dist]
+sha256 = ""
+url = ""

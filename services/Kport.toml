@@ -1,0 +1,12 @@
+[package]
+name = "services"
+version = "0.1.0"
+description = "List registered services"
+
+[build]
+target = "aarch64-karythra"
+bin = "services"
+
+[dist]
+sha256 = ""
+url = ""

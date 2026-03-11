@@ -1,0 +1,12 @@
+[package]
+name = "cat"
+version = "0.1.0"
+description = "Display file contents"
+
+[build]
+target = "aarch64-karythra"
+bin = "cat"
+
+[dist]
+sha256 = ""
+url = ""

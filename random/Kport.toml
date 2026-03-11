@@ -1,0 +1,12 @@
+[package]
+name = "random"
+version = "0.1.0"
+description = "Get random bytes from entropy service"
+
+[build]
+target = "aarch64-karythra"
+bin = "random"
+
+[dist]
+sha256 = ""
+url = ""

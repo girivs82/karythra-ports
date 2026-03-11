@@ -1,0 +1,12 @@
+[package]
+name = "ls"
+version = "0.1.0"
+description = "List files in filesystem"
+
+[build]
+target = "aarch64-karythra"
+bin = "ls"
+
+[dist]
+sha256 = ""
+url = ""
