@@ -14,3 +14,10 @@ random/random
 stat/stat
 services/services
 power/power
+echo/echo
+rm/rm
+sleep/sleep
+tag/tag
+find/find
+history/history
+hexdump/hexdump
