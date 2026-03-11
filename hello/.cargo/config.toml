@@ -1,0 +1,2 @@
+[target.aarch64-karythra]
+rustflags = ["-C", "link-arg=-T../../tools/targets/link-tasklet-aarch64.ld"]

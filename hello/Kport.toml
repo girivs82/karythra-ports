@@ -1,0 +1,12 @@
+[package]
+name = "hello"
+version = "0.1.0"
+description = "Hello world tasklet for Karythra"
+
+[build]
+target = "aarch64-karythra"
+bin = "hello"
+
+[dist]
+sha256 = ""
+url = ""
