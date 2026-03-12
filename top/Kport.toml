@@ -1,0 +1,12 @@
+[package]
+name = "top"
+version = "0.1.0"
+description = "System resource monitor"
+
+[build]
+target = "aarch64-karythra"
+bin = "top"
+
+[dist]
+sha256 = ""
+url = ""
