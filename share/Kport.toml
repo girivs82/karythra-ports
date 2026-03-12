@@ -1,0 +1,12 @@
+[package]
+name = "share"
+version = "0.1.0"
+description = "Share a session file to the system namespace"
+
+[build]
+target = "aarch64-karythra"
+bin = "share"
+
+[dist]
+sha256 = ""
+url = ""

@@ -1,0 +1,12 @@
+[package]
+name = "ns"
+version = "0.1.0"
+description = "Manage session namespaces"
+
+[build]
+target = "aarch64-karythra"
+bin = "ns"
+
+[dist]
+sha256 = ""
+url = ""

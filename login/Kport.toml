@@ -1,0 +1,12 @@
+[package]
+name = "login"
+version = "0.1.0"
+description = "Login to a session with a passphrase"
+
+[build]
+target = "aarch64-karythra"
+bin = "login"
+
+[dist]
+sha256 = ""
+url = ""

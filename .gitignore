@@ -26,3 +26,7 @@ crypto/crypto
 revert/revert
 tags/tags
 untag/untag
+login/login
+logout/logout
+ns/ns
+share/share

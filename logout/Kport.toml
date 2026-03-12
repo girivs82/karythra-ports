@@ -1,0 +1,12 @@
+[package]
+name = "logout"
+version = "0.1.0"
+description = "Logout from the current session"
+
+[build]
+target = "aarch64-karythra"
+bin = "logout"
+
+[dist]
+sha256 = ""
+url = ""
