@@ -10,6 +10,7 @@ fn split_first(s: &str) -> (&str, &str) {
 
 #[karythra::main]
 async fn main(args: &str) {
+    let _ = karythra::fs::session_join().await;
     let (name, tag) = split_first(args.trim_ascii());
     if name.is_empty() || tag.is_empty() {
         karythra::io::print("usage: untag <file> <tag>\n");

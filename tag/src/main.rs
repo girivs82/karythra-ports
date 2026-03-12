@@ -10,6 +10,7 @@ fn split_first(s: &str) -> (&str, &str) {
 
 #[karythra::main]
 async fn main(args: &str) {
+    let _ = karythra::fs::session_join().await;
     let (cmd, rest) = split_first(args.trim_ascii());
     match cmd {
         "add" => {
