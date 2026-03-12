@@ -1,0 +1,12 @@
+[package]
+name = "tags"
+version = "0.1.0"
+description = "Show tags on a file"
+
+[build]
+target = "aarch64-karythra"
+bin = "tags"
+
+[dist]
+sha256 = ""
+url = ""

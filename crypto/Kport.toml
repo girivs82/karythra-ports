@@ -1,0 +1,12 @@
+[package]
+name = "crypto"
+version = "0.1.0"
+description = "Crypto service status and key rotation"
+
+[build]
+target = "aarch64-karythra"
+bin = "crypto"
+
+[dist]
+sha256 = ""
+url = ""

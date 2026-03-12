@@ -1,0 +1,12 @@
+[package]
+name = "untag"
+version = "0.1.0"
+description = "Remove tag from file"
+
+[build]
+target = "aarch64-karythra"
+bin = "untag"
+
+[dist]
+sha256 = ""
+url = ""

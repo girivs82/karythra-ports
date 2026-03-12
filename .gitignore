@@ -21,3 +21,8 @@ tag/tag
 find/find
 history/history
 hexdump/hexdump
+ps/ps
+crypto/crypto
+revert/revert
+tags/tags
+untag/untag

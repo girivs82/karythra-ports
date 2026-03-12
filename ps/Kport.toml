@@ -1,0 +1,12 @@
+[package]
+name = "ps"
+version = "0.1.0"
+description = "List running binaries"
+
+[build]
+target = "aarch64-karythra"
+bin = "ps"
+
+[dist]
+sha256 = ""
+url = ""
