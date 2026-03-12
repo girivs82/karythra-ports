@@ -15,6 +15,7 @@ fn label_str(label: &[u8; 16]) -> &str {
 
 #[karythra::main]
 async fn main(args: &str) {
+    let _ = karythra::fs::session_join().await;
     let (sub, rest) = split_first(args.trim_ascii());
     match sub {
         "create" => {
@@ -55,7 +56,7 @@ async fn main(args: &str) {
             match karythra::fs::ns_list().await {
                 Ok(list) => {
                     if list.count == 0 {
-                        karythra::io::print("no namespaces (not logged in?)\n");
+                        karythra::io::print("no namespaces\n");
                         return;
                     }
                     for i in 0..list.count as usize {

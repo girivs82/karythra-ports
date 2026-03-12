@@ -10,6 +10,10 @@ async fn main(args: &str) {
     }
     match karythra::fs::session_login(passphrase).await {
         Ok(info) => {
+            let console = karythra::api::console_id();
+            if console != 0 {
+                let _ = karythra::fs::session_inherit(console).await;
+            }
             karythra::io::print("session ");
             let mut hex = [0u8; 16];
             let n = karythra::fmt::hex_bytes(&info.session_id, &mut hex);

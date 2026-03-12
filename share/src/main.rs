@@ -3,6 +3,7 @@
 
 #[karythra::main]
 async fn main(args: &str) {
+    let _ = karythra::fs::session_join().await;
     let name = args.trim_ascii();
     if name.is_empty() {
         karythra::io::print("usage: share <file>\n");
