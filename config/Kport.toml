@@ -1,0 +1,12 @@
+[package]
+name = "config"
+version = "0.1.0"
+description = "View and modify service configuration"
+
+[build]
+target = "aarch64-karythra"
+bin = "config"
+
+[dist]
+sha256 = ""
+url = ""

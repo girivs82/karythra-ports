@@ -32,3 +32,6 @@ ns/ns
 share/share
 pattern/pattern
 top/top
+drawtest/drawtest
+guitest/guitest
+config/config
