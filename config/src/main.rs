@@ -165,18 +165,6 @@ async fn cmd_set(service: &str, field_name: &str, value_str: &str) {
 }
 
 async fn cmd_reset(service: &str) {
-    let config_name_prefix = "config/";
-    if service.len() + config_name_prefix.len() <= 47 {
-        let mut name_buf = [0u8; 48];
-        name_buf[..config_name_prefix.len()].copy_from_slice(config_name_prefix.as_bytes());
-        let slen = service.len().min(47 - config_name_prefix.len());
-        name_buf[config_name_prefix.len()..config_name_prefix.len() + slen]
-            .copy_from_slice(&service.as_bytes()[..slen]);
-        let full_name = core::str::from_utf8(&name_buf[..config_name_prefix.len() + slen])
-            .unwrap_or("");
-        let _ = karythra::fs::delete(full_name).await;
-    }
-
     match karythra::config::reset(service).await {
         Ok(()) => print("config reset to defaults\n"),
         Err(_) => print("config: reset failed\n"),
