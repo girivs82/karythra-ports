@@ -1,0 +1,12 @@
+[package]
+name = "sysmon"
+version = "0.1.0"
+description = "System monitor with CPU, memory, IPC, and scheduler stats"
+
+[build]
+target = "aarch64-karythra"
+bin = "sysmon"
+
+[dist]
+sha256 = ""
+url = ""
